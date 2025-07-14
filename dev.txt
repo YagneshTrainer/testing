@@ -1,3 +1,5 @@
 Welcome to the working Directory
+<<<<<<< HEAD
 Welcome to the staging area(modified)
 Testing merging from master
+
