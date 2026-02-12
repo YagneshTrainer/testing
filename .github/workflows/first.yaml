@@ -1,0 +1,12 @@
+name: First Teting Job
+on: push
+jobs:
+    Testing-Echo:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Testing Echo Job"
+    second-job:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Bye World"
+    
