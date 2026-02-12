@@ -1,5 +1,8 @@
 name: First Teting Job
-on: push
+on:
+    push:
+    pull_request:
+    workflow_dispatch:
 jobs:
     Testing-Echo:
         runs-on: ubuntu-latest
