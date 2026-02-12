@@ -1,0 +1,10 @@
+name: Testing workflow events
+on: 
+    - push
+    - pull_request
+jobs:
+    testingevent:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Triggered by ${{ github.event_name }} event."
+            
